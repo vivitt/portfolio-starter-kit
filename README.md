@@ -5,10 +5,11 @@
 
 **STEP 2:** Clone the forked directory so that each gets her copy in local
 
-**STEP 3:** Then each one must create a new local working branch with "git branch <branch-name>" (we don't work directly on the master/main branch!)
+**STEP 3:** Then each one must create a new local working branch with "git branch <branch-name>" (we don't work directly on the master/main branch!) and use the checkout command to change to that new branch and start working there.
   
 ```sh
 git branch <branch-name>
+git checkout <branch-name>
 ```
 
 **STEP 4:** Divide sections, decide who is working on what and start working each on her assigned section
