@@ -1,7 +1,7 @@
 # portfolio-starter-kit
 
 
-**STEP 1:** Fork this directory (only one person of each group!)
+**STEP 1:** Fork this directory (only one person of each group! this will be your team's base repository)
 
 **STEP 2:** Clone the forked directory so that each gets her copy in local
 
@@ -20,4 +20,18 @@ git add .
 git commit -m <some message>
 ```
 
-**STEP 5:** You can also get a copy of the branches of the others if you wanna check what the others are doing. For this you need to write "git branch -a" and the "git checkout <branchname>"
+**STEP 5:** You can also "push" your branch on Github, so that the others can have a look! For this you need to use: 
+
+```sh
+git push --set-upstream origin <your branch name>
+```
+if it is the first time you make a push, or simply:
+  
+```sh
+git push
+```
+for all subsequent times.
+  
+**✨ NOTE:**  You don't need to push every change you do online, only once you have something that you really wanna show/share to the rest of the team. But you do need to make commits locally often! This will help you get back and "undo" changes if you make some error or you simply wanna look how some previous version was. 
+
+  
