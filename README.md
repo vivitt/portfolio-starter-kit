@@ -34,4 +34,7 @@ for all subsequent times.
   
 **✨ NOTE:**  You don't need to push every change you do online, only once you have something that you really wanna show/share to the rest of the team. But you do need to make commits locally often! This will help you get back and "undo" changes if you make some error or you simply wanna look how some previous version was. 
 
+
+**STEP 6:** Once everyone is finished and happy with her part, we would need to merge the sub-branches with the base one (main). This is a bit more complex since we were all working in the same index.html file and will for sure create some conflicts. We will solve that once the time comes...
+
   
