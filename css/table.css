@@ -1,0 +1,17 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;    
+}
+/**************** *********************/
+
+.table-header {
+    background-color: rgb(55, 55, 83);
+    margin: 0;
+}
+
+.table-header-el {
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}
