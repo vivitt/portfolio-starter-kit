@@ -1,17 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&display=swap');
+
 table {
     width: 100%;
     border-collapse: collapse;
-    text-align: left;    
+    text-align: left;
 }
+
+
+
 /**************** *********************/
 
+.table-div {
+    color: white;
+    font-family: 'Fredoka', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.table-title {
+    text-align: center;
+}
+
 .table-header {
-    background-color: rgb(55, 55, 83);
+    background-color: rgb(86, 86, 128);
     margin: 0;
+}
+
+.table-el {
+    padding: 10px;
 }
 
 .table-header-el {
-    color: white;
     font-weight: bold;
     margin: 0;
+}
+
+.table-div{
+    background: rgb(54, 131, 139);
+    background: linear-gradient(90deg, rgb(114, 183, 190) 0%, rgb(119, 106, 156) 100%);
+    margin: 0;
+    padding: 0;
 }
