@@ -3,8 +3,10 @@
     flex-flow: row wrap;
     justify-content: center;
 }
-
-.section {
+.resume h2 {
+    margin-bottom: 4rem;
+}
+.resume .section {
     flex-basis: 50%;
     padding: 0 0.5rem;
 }
@@ -42,7 +44,7 @@
     position: absolute;
     content: '';
     background-color: black;
-    min-height: 200%;
+    min-height: 280%;
     width: 3px;
     align-self: flex-start;
     z-index: -5;
@@ -50,22 +52,22 @@
 
 }
 
-.text {
+.resume .text {
     flex-basis: 70%;
     padding-bottom: 2rem;
     margin: 0 1.5rem;
 }
-.section h3 {
+.resume .section h3 {
     display: inline;
 }
-.section h6 {
+.resume .section h6 {
     display: inline;
     
 }
-.text h6 {
+.resume .text h6 {
     font-size: 0.8rem;
     margin: 0 0.5rem;
 }
-.text p {
+.resume .text p {
     margin-top: 1.2rem;
 }
