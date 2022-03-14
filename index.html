@@ -83,31 +83,44 @@
                     <div class="form-textbox">
                         <h2 class="form-title">Interested to work together? Let's talk</h2>
                         <form action="/" method="post">
-                            <label class="form-label" for="yourname">Your name</label>
-                            <input class="form-input" id="yourname" name="yourname" size="30" type="text" required>
+                            <div class="form-grid">
+                                <div class="grid-cell">
+                                    <label class="form-label" for="yourname">Your name</label>
+                                    <input class="form-input" id="yourname" name="yourname" size="30" type="text" required>
+                                </div>
 
-                            <label class="form-label" for="email">Email</label>
-                            <input class="form-input" id="email" name="email" size="30" type="email" required>
+                                <div class="grid-cell">
+                                    <label class="form-label" for="email">Email</label>
+                                    <input class="form-input" id="email" name="email" size="30" type="email" required>
+                                </div>
 
-                            <label class="form-label" for="phone">Phone</label>
-                            <input class="form-input" id="phone" name="phone" size="30" type="number">
+                                <div class="grid-cell">
+                                    <label class="form-label" for="phone">Phone</label>
+                                    <input class="form-input" id="phone" name="phone" size="30" type="number">
+                                </div>
 
-                            <label class="form-label" for="country">Country</label>
-                            <select class="form-input" id="country" name="country">
-                                <option value="default">Choose country</option>
-                                <option value="italy">Italy</option>
-                                <option value="spain">Spain</option>
-                                <option value="france">France</option>
-                                <option value="greece">Greece</option>
-                                <option value="argentina">Argentina</option>
-                                <option value="brasil">Brasil</option>
-                                <option value="estonia">Estonia</option>
-                                <option value="other">Other</option>
-                            </select>
+                                <div class="grid-cell">
+                                    <label class="form-label" for="country">Country</label>
+                                    <select class="form-input" id="country" name="country">
+                                        <option value="default">Choose country</option>
+                                        <option value="italy">Italy</option>
+                                        <option value="spain">Spain</option>
+                                        <option value="france">France</option>
+                                        <option value="greece">Greece</option>
+                                        <option value="argentina">Argentina</option>
+                                        <option value="brasil">Brasil</option>
+                                        <option value="estonia">Estonia</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+
+                            </div>
+
                             <label class="form-label" for="message">Message</label>
                             <textarea id="message" name="message"></textarea>
                             <input type="checkbox" id="terms" name="terms">
-                            <label class="form-label" for="terms">I have read and accept the Terms and conditions</label>
+                            <label class="form-label" for="terms">I have read and accept the <a class="light-text"
+                                    href="#">Terms and conditions</a></label>
                             <button class="send-btn" type="submit">Send</button>
                         </form>
 

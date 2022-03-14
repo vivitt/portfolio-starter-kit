@@ -17,7 +17,7 @@ textarea {
     flex-wrap: nowrap;
     flex-direction: row;
     border: 3px solid rgb(144, 238, 210);
-    background-color: rgb(255, 224, 217);    
+    background-color: rgb(255, 224, 217);
 }
 
 .form-dog {
@@ -26,7 +26,11 @@ textarea {
     display: inline-block;
 }
 
-
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
 
 .form-textbox {
     display: inline-block;
@@ -52,5 +56,14 @@ textarea {
     background-color: rgb(144, 238, 210);
     border-radius: 20px;
     border: 1px solid rgb(144, 238, 210);
-    padding: 15px 50px;    
+    padding: 15px 50px;
+}
+
+.light-text {
+    color: rgb(141, 140, 143);
+}
+
+.light-text:hover {
+    color: rgb(144, 238, 210);
+    text-decoration: none;
 }
