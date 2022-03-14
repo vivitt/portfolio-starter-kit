@@ -1,0 +1,97 @@
+form {
+    color: black;
+    font-family: 'Fredoka', Arial, sans-serif;
+    font-size: 0.5rem;
+}
+
+textarea {
+    height: 100px;
+    width: 100%;
+    border: 2px solid rgb(144, 238, 210);
+    border-radius: 5px;
+}
+
+
+.form-div {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    border: 3px solid rgb(144, 238, 210);
+    background-color: rgb(255, 224, 217);
+}
+
+.form-dog {
+    margin: 30px;
+    display: inline-block;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.form-textbox {
+    display: inline-block;
+    margin: 25px 40px 30px 100px;
+    padding: 0;
+}
+
+.form-title {
+    padding-right: 50px;
+}
+
+.form-label {
+    font-size: 1rem;
+    display: block;
+    margin: 10px;
+}
+
+.form-input {
+    border-radius: 5px;
+}
+
+.send-btn {
+    margin: 20px 0;
+    background-color: rgb(144, 238, 210);
+    border-radius: 20px;
+    border: 1px solid rgb(144, 238, 210);
+    padding: 15px 50px;
+    display: block;
+}
+
+.send-btn:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 49, 51);
+    border: 1px solid rgb(3, 49, 51);    
+}
+
+.light-text {
+    color: rgb(141, 140, 143);
+}
+
+.light-text:hover {
+    color: rgb(144, 238, 210);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.checkbox {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+}
+
+.checkbox-label {
+    display: inline;
+}
+
+.contact input, select {
+    height: 30px;
+}
+
+.contact select {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 80%;
+}
