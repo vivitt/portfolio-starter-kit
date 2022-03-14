@@ -86,3 +86,13 @@ textarea {
 .checkbox-label {
     display: inline;
 }
+
+.contact input, select {
+    height: 30px;
+}
+
+.contact select {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 80%;
+}
