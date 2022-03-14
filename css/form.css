@@ -53,10 +53,18 @@ textarea {
 }
 
 .send-btn {
+    margin: 20px 0;
     background-color: rgb(144, 238, 210);
     border-radius: 20px;
     border: 1px solid rgb(144, 238, 210);
     padding: 15px 50px;
+    display: block;
+}
+
+.send-btn:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 49, 51);
+    border: 1px solid rgb(3, 49, 51);    
 }
 
 .light-text {
@@ -65,5 +73,16 @@ textarea {
 
 .light-text:hover {
     color: rgb(144, 238, 210);
+    font-weight: bold;
     text-decoration: none;
+}
+
+.checkbox {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3px;
+}
+
+.checkbox-label {
+    display: inline;
 }
