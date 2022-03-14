@@ -80,7 +80,7 @@ textarea {
 .checkbox {
     display: inline-block;
     vertical-align: top;
-    margin-top: 3px;
+    margin-top: 0;
 }
 
 .checkbox-label {
