@@ -1,0 +1,56 @@
+form {
+    color: black;
+    font-family: 'Fredoka', Arial, sans-serif;
+    font-size: 0.5rem;
+}
+
+textarea {
+    height: 100px;
+    width: 100%;
+    border: 2px solid rgb(144, 238, 210);
+    border-radius: 5px;
+}
+
+
+.form-div {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    border: 3px solid rgb(144, 238, 210);
+    background-color: rgb(255, 224, 217);    
+}
+
+.form-dog {
+    width: 100%;
+    margin: 30px;
+    display: inline-block;
+}
+
+
+
+.form-textbox {
+    display: inline-block;
+    margin: 25px 40px 30px 100px;
+    padding: 0;
+}
+
+.form-title {
+    padding-right: 50px;
+}
+
+.form-label {
+    font-size: 1rem;
+    display: block;
+    margin: 10px;
+}
+
+.form-input {
+    border-radius: 5px;
+}
+
+.send-btn {
+    background-color: rgb(144, 238, 210);
+    border-radius: 20px;
+    border: 1px solid rgb(144, 238, 210);
+    padding: 10px 40px;    
+}
