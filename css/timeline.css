@@ -1,0 +1,51 @@
+.resume {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.section {
+    flex-basis: 50%;
+}
+
+
+.timeline-entry {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.year p{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    
+    z-index: 5;
+    
+    
+}
+.circle {
+    max-width: 80px;
+    max-height: 80px;
+    background-color: #001AFE;
+    border-radius: 50%;
+    flex-basis: 30%;
+    margin-right: 1rem;
+    position: relative;
+}
+.circle::after {
+    content: line;
+    border-left: 3px solid black;
+    height: 200px;
+    width: 100px;
+    position: relative;
+}
+.text {
+    flex-basis: 70%;
+    padding-bottom: 2rem;
+    margin: 0.5rem;
+}
+.section h3, .section h6 {
+    display: inline;
+    
+}
+.text p {
+    margin-top: 1rem;
+}
