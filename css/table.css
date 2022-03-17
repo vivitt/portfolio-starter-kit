@@ -6,14 +6,31 @@ table {
     text-align: left;
 }
 
+table a {
+    color: white;
+}
+
+table a:hover {
+    text-decoration: none;
+    color:  #001AFE;
+}
+
 
 
 /**************** *********************/
+
+.tr:hover{
+    background-color: rgb(255, 255, 255) 0.5;
+}
 
 .table-div {
     color: white;
     font-family: 'Fredoka', Arial, sans-serif;
     font-size: 1rem;
+    background: rgb(54, 131, 139);
+    background: linear-gradient(90deg, rgb(114, 183, 190) 0%, rgb(119, 106, 156) 100%);
+    margin: 0;
+    padding: 0;
 }
 
 .table-title {
@@ -32,11 +49,4 @@ table {
 .table-header-el {
     font-weight: bold;
     margin: 0;
-}
-
-.table-div{
-    background: rgb(54, 131, 139);
-    background: linear-gradient(90deg, rgb(114, 183, 190) 0%, rgb(119, 106, 156) 100%);
-    margin: 0;
-    padding: 0;
 }

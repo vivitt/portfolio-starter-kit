@@ -14,6 +14,7 @@
 
     <link rel="stylesheet" href="./css/form.css">
     <link rel="stylesheet" href="./css/table.css">
+    <link rel="stylesheet" href="./css/dark-theme.css">
 
     <link rel="icon" href="images/mp.png">
 </head>
@@ -29,12 +30,14 @@
                     <li><a href="#" class="active">About</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contact</a></li>
+                    <li><button id="dark-btn">Change Theme</button></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main id="main-content">
+
         <div class="container">
 
             <!-- TABLE -->
@@ -50,29 +53,29 @@
                     <tr>
                         <td class="table-el">January 2015</td>
                         <td class="table-el">Skolkovo Business Direct</td>
-                        <td class="table-el">Visit website</td>
+                        <td class="table-el"><a href="#">Visit website</a></td>
                     </tr>
                     <tr>
                         <td class="table-el">March 2016</td>
                         <td class="table-el">The digital Van Gogh Museum</td>
-                        <td class="table-el">Visit website</td>
+                        <td class="table-el"><a href="#">Visit website</a></td>
                     </tr>
                     <tr>
                         <td class="table-el">June 2019</td>
                         <td class="table-el">DivineComedy.Digital</td>
-                        <td class="table-el">Visit website</td>
+                        <td class="table-el"><a href="#">Visit website</a></td>
                     </tr>
                     <tr>
                         <td class="table-el">February 2021</td>
                         <td class="table-el">Cowool. Cosy living & Cosy working</td>
-                        <td class="table-el">Visit website</td>
+                        <td class="table-el"><a href="#">Visit website</a></td>
                     </tr>
                 </table>
             </section>
 
             <!-- RESUME TIMELINE -->
             <section class="resume">
-                <div class="section">
+                <div class="section target-element">
                     <h2>Experiences</h2>  
                     <ul class="timeline-list">
                         <li class="timeline-item">
@@ -101,7 +104,7 @@
                         </li>
                     </ul>
                 </div> <!-- end section -->
-                <div class="section">
+                <div class="section target-element">
                     <h2>Education</h2> 
                     <ul class="timeline-list">
                         <li class="timeline-item">
@@ -135,7 +138,7 @@
 
             <!-- CONTACT -->
 
-            <section class="contact">
+            <section class="contact target-element">
                 <div class="form-div">
                     <div>
                         <img class="form-dog" src="./images/form-img.png" alt="cute-doggo">
@@ -195,6 +198,7 @@
     <footer>
 
     </footer>
+<script src="app.js"></script>
 
 </body>
 
