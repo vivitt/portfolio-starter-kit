@@ -1,0 +1,41 @@
+#dark-btn {
+    border-radius: 10px;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Fredoka', Arial, sans-serif;
+    font-size: 1rem;
+    background-color: rgb(35, 35, 39);
+    color: white;
+    border: 1px solid rgb(35, 35, 39);
+
+}
+
+.dark-theme {
+    background-color: rgb(35, 35, 39);
+    color: #72EDCA;
+}
+
+.dark-theme p {
+    color: white;
+}
+
+.dark-theme header {
+    background-color: rgb(35, 35, 39);
+}
+
+.dark-theme .form-textbox {
+    color: rgb(35, 35, 39);
+}
+
+.dark-theme #dark-btn{
+    background-color: #72EDCA;
+    border: 1px solid #72EDCA;
+    color: black;
+}
+
+.dark-theme header a {
+    color: white;
+}
+.dark-theme header a:hover {
+    color: blue;
+}

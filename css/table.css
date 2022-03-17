@@ -6,6 +6,15 @@ table {
     text-align: left;
 }
 
+table a {
+    color: white;
+}
+
+table a:hover {
+    text-decoration: none;
+    color:  #001AFE;
+}
+
 
 
 /**************** *********************/
