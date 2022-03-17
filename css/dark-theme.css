@@ -7,7 +7,11 @@
     background-color: rgb(35, 35, 39);
     color: white;
     border: 1px solid rgb(35, 35, 39);
+}
 
+#dark-btn:hover{
+    background-color: white;
+    color: rgb(35, 35, 39);
 }
 
 .dark-theme {
@@ -31,6 +35,11 @@
     background-color: #72EDCA;
     border: 1px solid #72EDCA;
     color: black;
+}
+
+.dark-theme #dark-btn:hover{
+    background-color: white;
+    color: rgb(35, 35, 39);
 }
 
 .dark-theme header a {
